@@ -1,8 +1,7 @@
 function sayHi(name: string): void {
-    console.log("Hi,", name, "!")
+  console.log('Hi,', name, '!');
 }
 
-sayHi('Rey')
+sayHi('Rey');
 
-export {sayHi};
-
+export { sayHi };
