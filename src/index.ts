@@ -5,3 +5,4 @@ function sayHi(name: string): void {
 sayHi('Rey')
 
 export {sayHi};
+
