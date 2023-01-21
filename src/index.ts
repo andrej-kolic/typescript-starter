@@ -1,7 +1,7 @@
-function sayHi(name: string): void {
-  console.log('Hi,', name, '!');
+function sayHi(name: string): string {
+  return `Hi, ${name}!`;
 }
 
-sayHi('Rey');
+console.log(sayHi('Rey'));
 
 export { sayHi };
